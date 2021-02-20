@@ -1,6 +1,6 @@
 <template>
   <a-config-provider :locale="locale">
-    <router-view :key="$store.state.settings.locale" />
+    <router-view />
   </a-config-provider>
 </template>
 

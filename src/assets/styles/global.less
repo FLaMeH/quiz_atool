@@ -1,0 +1,10 @@
+:root {
+  font-size: 12px;
+  --kit-color-primary: #4b7cf3;
+  --kit-font-family: '微软雅黑', '宋体', sans-serif;
+}
+@base-font-size:12px;
+@import "/src/antd-variables";
+.rem(@px, @base:@base-font-size) {
+  return:floor((@px/@base)*100)/100+'rem';
+}

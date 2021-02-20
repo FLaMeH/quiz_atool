@@ -1,6 +1,9 @@
 import index from '@/router/modules'
+import auth from "@/router/modules/auth";
+
 const baseRoute = [
   index,
+  auth,
 ]
 
 const errorPage = [

@@ -4,6 +4,7 @@ import createPersistedState from 'vuex-persistedstate'
 import SecureLS from 'secure-ls'
 
 import settings from '@/store/modules/setting'
+import auth from '@/router/modules/auth'
 
 import Cookies from 'js-cookie'
 
@@ -45,6 +46,7 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   modules: {
     settings,
+    auth,
   },
   plugins: [
     securedPersist,

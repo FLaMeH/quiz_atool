@@ -12,8 +12,7 @@ import '@/plugins/ant-design-vue'
 
 import '@/plugins/registerServiceWorker'
 
-import 'ant-design-vue/dist/antd.less'
-import '@/antd-variables.less'
+import '@/assets/styles/global.less'
 
 Vue.use(NProgress)
 const nprogress = new NProgress( {
